@@ -1,0 +1,59 @@
+aid: avail
+name: Avail
+description: Avail is a landlord-focused rental management platform offering tools for property listings, tenant applications, screening reports, lease agreements, rent payments, and maintenance requests. Designed for DIY independent landlords, Avail enables listing syndication across 19+ rental sites, state-specific digital lease signing, online rent collection, and maintenance request tracking through an all-in-one platform.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/avail/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Property Management
+  - Rental Management
+  - Landlord Software
+  - Tenant Screening
+  - Lease Management
+  - Rent Collection
+  - Maintenance Requests
+  - Real Estate
+apis:
+  - aid: avail:avail-api
+    name: Avail API
+    description: Avail platform API providing programmatic access to rental property management capabilities including listings, applications, leases, payments, and maintenance requests. Avail does not publish an official public developer API; third-party integrations access the platform through adaptive session-based authentication.
+    humanURL: https://www.avail.com/
+    baseURL: https://www.avail.com/
+    tags:
+      - Property Listings
+      - Tenant Applications
+      - Lease Management
+      - Rent Payments
+      - Maintenance Requests
+    properties:
+      - type: Documentation
+        url: https://www.avail.com/education
+      - type: Support
+        url: https://support.avail.com/
+common:
+  - type: Website
+    url: https://www.avail.com/
+  - type: Documentation
+    url: https://www.avail.com/education
+  - type: Blog
+    url: https://www.avail.com/blog
+  - type: Pricing
+    url: https://www.avail.com/pricing
+  - type: Support
+    url: https://support.avail.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/helloavail
+  - type: X
+    url: https://twitter.com/helloavail
+  - type: Plans
+    url: plans/avail-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/avail-rate-limits.yml
+  - type: FinOps
+    url: finops/avail-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

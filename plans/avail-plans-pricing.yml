@@ -1,0 +1,46 @@
+name: Avail Plans and Pricing
+description: Pricing plans for Avail landlord and property management software platform.
+url: https://www.avail.com/pricing
+plans:
+  - name: Unlimited
+    description: Free plan for independent landlords with unlimited units and essential property management features.
+    price: 0
+    unit: per unit per month
+    features:
+      - Unlimited rental units
+      - List rentals on top 19 sites
+      - Rental applications and screening requests
+      - State-specific leases with digital signing
+      - Online rent collection
+      - Maintenance request tracking
+      - 24/7 tenant portal access
+      - Income and expense tracking
+      - Messaging system
+    fees:
+      - name: Tenant ACH bank transfer fee
+        amount: 2.50
+        unit: per transaction
+      - name: Credit/debit card processing fee
+        amount: 3.5
+        unit: percent per transaction
+
+  - name: Unlimited Plus
+    description: Premium plan with accelerated payments, waived ACH fees, custom applications, and priority support.
+    price: 9
+    unit: per unit per month
+    features:
+      - All Unlimited plan features
+      - FastPay accelerated rent payments (next-day)
+      - Waived ACH fees for bank transfers
+      - Custom application questions
+      - Lease template customization
+      - Lease cloning capability
+      - Branded property website
+      - Priority support with faster response times
+    fees:
+      - name: Tenant ACH bank transfer fee
+        amount: 0
+        unit: per transaction
+      - name: Credit/debit card processing fee
+        amount: 3.5
+        unit: percent per transaction

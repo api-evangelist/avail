@@ -1,0 +1,37 @@
+name: Avail FinOps
+description: Financial operations and cost management considerations for the Avail landlord property management platform.
+url: https://www.avail.com/pricing
+costDrivers:
+  - name: Per Unit Monthly Fee
+    description: The Unlimited Plus plan charges $9 per unit per month, which scales linearly with portfolio size.
+    plan: Unlimited Plus
+    unit: per unit per month
+    amount: 9
+
+  - name: ACH Bank Transfer Fee (Free Plan)
+    description: Tenants on the Unlimited free plan pay $2.50 per ACH bank transfer for rent payments.
+    plan: Unlimited
+    unit: per transaction
+    amount: 2.50
+    paidBy: tenant
+
+  - name: Credit/Debit Card Processing Fee
+    description: A 3.5% processing fee applies to all credit and debit card payments on both plans.
+    plan: All plans
+    unit: percent per transaction
+    amount: 3.5
+    paidBy: tenant
+
+optimizationTips:
+  - tip: Start with the free Unlimited plan to validate workflow before upgrading to Unlimited Plus.
+    impact: Eliminates per-unit monthly fees for small landlords.
+  - tip: Encourage tenants to use ACH bank transfers on Unlimited Plus to avoid per-transaction fees.
+    impact: Eliminates the $2.50 per-transaction fee on the paid plan; free plan charges tenants $2.50 per ACH.
+  - tip: Evaluate upgrade break-even point at scale—if FastPay (next-day payments) or priority support is critical, Unlimited Plus at $9/unit/month may pay for itself.
+    impact: Faster cash flow access may offset plan cost for larger landlords.
+  - tip: Monitor portfolio size growth, as per-unit pricing makes costs predictable but increases linearly.
+    impact: Budget planning for growing property portfolios.
+
+freeOptions:
+  - name: Unlimited (Free Plan)
+    description: Full access to core property management features at no cost. Suitable for DIY landlords managing any number of units who can absorb the $2.50 ACH fee or pass it to tenants.

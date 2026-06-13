@@ -1,0 +1,20 @@
+name: Avail Rate Limits
+description: Rate limiting information for the Avail platform API. Avail does not publish an official public REST API with documented rate limits. Adaptive throttling is applied to avoid portal-side limits when accessing platform data programmatically.
+url: https://www.avail.com/
+limits:
+  - name: Adaptive Throttling
+    description: Avail applies adaptive throttling tuned to individual accounts to avoid platform-side limits. No fixed public rate limit values are officially documented.
+    type: adaptive
+    scope: per account
+  - name: Read Latency
+    description: Sub-second reads on cached entities when accessing listing, application, and payment data.
+    type: performance
+    scope: per request
+  - name: Write Latency
+    description: Multi-second latency for write operations such as creating listings or posting updates.
+    type: performance
+    scope: per request
+notes:
+  - Avail does not offer an officially documented public developer API with published rate limits as of 2026.
+  - Third-party integrations use adaptive throttling to avoid triggering internal platform limits.
+  - Enterprise or integration partners should contact Avail directly for rate limit specifics.
