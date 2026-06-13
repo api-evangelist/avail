@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.avail.com/",
+  "name": "Avail",
+  "description": "Avail is a landlord-focused rental management platform offering tools for property listings, tenant applications, screening reports, lease agreements, rent payments, and maintenance requests. Designed for DIY independent landlords, Avail enables listing syndication across 19+ rental sites, state-specific digital lease signing, online rent collection, and maintenance request tracking through an all-in-one platform.",
+  "url": "https://www.avail.com/",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/helloavail",
+    "https://twitter.com/helloavail"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://support.avail.com/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.avail.com/pricing",
+    "description": "Avail pricing plans for independent landlords and property managers"
+  },
+  "knowsAbout": [
+    "Property Management",
+    "Rental Management",
+    "Landlord Software",
+    "Tenant Screening",
+    "Lease Management",
+    "Rent Collection",
+    "Maintenance Requests",
+    "Real Estate"
+  ],
+  "subjectOf": [
+    {
+      "@type": "WebPage",
+      "name": "Avail Education",
+      "url": "https://www.avail.com/education"
+    },
+    {
+      "@type": "Blog",
+      "name": "Avail Blog",
+      "url": "https://www.avail.com/blog",
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "5 Game-Changing New Avail Tools to Find Renters Fast",
+          "url": "https://www.avail.com/blog/new-avail-tools-to-find-renters-fast",
+          "author": {
+            "@type": "Person",
+            "name": "Alondra Segoviano"
+          },
+          "datePublished": "2026-04-30",
+          "description": "Avail launches five new features including promoted listings, property tour automation, direct applications on Realtor.com, expanded syndication across 20+ platforms, and integrated renters insurance to help landlords lease properties faster."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Master Your Rental Business With Landlording U",
+          "url": "https://www.avail.com/blog/introducing-landlording-u-by-avail",
+          "author": {
+            "@type": "Person",
+            "name": "Alondra Segoviano"
+          },
+          "datePublished": "2026-05-07",
+          "description": "Avail launches Landlording U, an educational video series covering tenant screening, startup essentials for new landlords, and practical solutions for managing in-lease complications."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Introducing Avail Messages: A New Way to Stay Connected With Tenants",
+          "url": "https://www.avail.com/blog/introducing-avail-messages",
+          "author": {
+            "@type": "Person",
+            "name": "Alondra Segoviano"
+          },
+          "datePublished": "2025-09-17",
+          "description": "Avail launches a centralized in-app messaging platform consolidating tenant, lead, and applicant communications with organized threads, real-time notifications, and permanent archiving."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Avail (Part of Realtor.com®) Annual Rent Report: What Landlords and Renters Should Expect",
+          "url": "https://www.avail.com/blog/avail-2023-annual-report",
+          "author": {
+            "@type": "Person",
+            "name": "Alondra Segoviano"
+          },
+          "datePublished": "2024-02-08",
+          "description": "Annual rent report surveying over 2,400 landlords and renters reveals moderated rent increases by landlords and persistent affordability challenges for renters amid rising property costs."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Avail Q1 Rental Report: Landlords Aim to Keep Rentals Occupied While Renters Grapple With Financial Challenges",
+          "url": "https://www.avail.com/blog/avail-rental-report-landlords-aim-to-keep-rentals-occupied-while-renters-grapple-with-financial-challenges",
+          "author": {
+            "@type": "Person",
+            "name": "Kaycee Jackson"
+          },
+          "datePublished": "2023-05-17",
+          "description": "Quarterly market analysis shows independent landlords moderating rent increase plans to maintain occupancy while renters face mounting financial pressures and reduced home-purchase intent."
+        }
+      ]
+    }
+  ]
+}
