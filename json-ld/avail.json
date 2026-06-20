@@ -5,7 +5,7 @@
   "name": "Avail",
   "description": "Avail is a landlord-focused rental management platform offering tools for property listings, tenant applications, screening reports, lease agreements, rent payments, and maintenance requests. Designed for DIY independent landlords, Avail enables listing syndication across 19+ rental sites, state-specific digital lease signing, online rent collection, and maintenance request tracking through an all-in-one platform.",
   "url": "https://www.avail.com/",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://www.linkedin.com/company/helloavail",
     "https://twitter.com/helloavail"
