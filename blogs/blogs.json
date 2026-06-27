@@ -1,46 +1,15 @@
 {
   "aid": "avail",
   "url": "https://www.avail.com/blog",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "5 Game-Changing New Avail Tools to Find Renters Fast",
-      "url": "https://www.avail.com/blog/new-avail-tools-to-find-renters-fast",
-      "author": "Alondra Segoviano",
-      "published": "2026-04-30",
-      "description": "Avail has launched five new features designed to help landlords lease properties more efficiently. The tools include promoted listings for increased visibility, property tour automation to reduce scheduling friction, direct applications on Realtor.com to expedite screening, expanded syndication across 20+ platforms, and integrated renters insurance options. These capabilities aim to streamline the rental process while attracting qualified applicants faster."
-    },
-    {
-      "title": "Master Your Rental Business With Landlording U",
-      "url": "https://www.avail.com/blog/introducing-landlording-u-by-avail",
-      "author": "Alondra Segoviano",
-      "published": "2026-05-07",
-      "description": "Avail has launched Landlording U, an educational video series featuring expert guidance for property managers at all experience levels. The program encompasses three seasons covering tenant screening procedures, startup essentials for new landlords, and practical solutions for managing in-lease complications. Content creators include Avail staff with landlording backgrounds alongside industry specialists who share real-world strategies for running profitable rental operations."
-    },
-    {
-      "title": "Introducing Avail Messages: A New Way to Stay Connected With Tenants",
-      "url": "https://www.avail.com/blog/introducing-avail-messages",
-      "author": "Alondra Segoviano",
-      "published": "2025-09-17",
-      "description": "Avail has launched Avail Messages, a centralized in-app communication platform that consolidates tenant, lead, and applicant interactions in one searchable location. This new feature replaces scattered emails and text messages with organized message threads tied to each person's profile, offering landlords better organization, real-time notifications, and permanent message archiving for improved property management efficiency."
-    },
-    {
-      "title": "Avail (Part of Realtor.com\u00ae) Annual Rent Report: What Landlords and Renters Should Expect",
-      "url": "https://www.avail.com/blog/avail-2023-annual-report",
-      "author": "Alondra Segoviano",
-      "published": "2024-02-08",
-      "description": "Avail's annual rent report surveyed over 2,400 landlords and renters to identify emerging trends in the rental market. While property ownership costs continue rising, landlords are moderating rent increases to preserve tenant relationships and minimize vacancies. Meanwhile, renters face persistent affordability challenges, with over two-thirds reporting decreased savings and many exploring relocation as rent prices remain elevated compared to historical levels."
-    },
-    {
-      "title": "Avail Q1 Rental Report: Landlords Aim to Keep Rentals Occupied While Renters Grapple With Financial Challenges",
-      "url": "https://www.avail.com/blog/avail-rental-report-landlords-aim-to-keep-rentals-occupied-while-renters-grapple-with-financial-challenges",
-      "author": "Kaycee Jackson",
-      "published": "2023-05-17",
-      "description": "This quarterly market analysis reveals that independent landlords are moderating rent increase plans, with only 65.1% planning increases compared to 70.4% six months prior, largely to maintain occupancy. Concurrently, renters face mounting financial pressures, with 54.9% unable to afford rent hikes and fewer than one-third considering home purchases within twelve months due to rising interest rates and insufficient savings."
-    }
-  ],
   "repo": "avail",
   "feeds": [
+    {
+      "source": "https://www.avail.com/blog",
+      "feed_url": "https://www.avail.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
     {
       "source": "https://www.avail.com/education",
       "feed_url": "https://www.avail.com/education/feed/",
@@ -50,5 +19,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z"
 }
