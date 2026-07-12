@@ -34,6 +34,8 @@ apis:
       - type: Support
         url: https://support.avail.com/
 common:
+  - type: DomainSecurity
+    url: security/avail-domain-security.yml
   - type: Website
     url: https://www.avail.com/
   - type: Documentation
