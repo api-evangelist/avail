@@ -27,6 +27,15 @@ tags:
   - Lease Management
   - Rent Collection
   - Maintenance Requests
+  - Real-Estate
+tags_raw:
+  - Property Management
+  - Rental Management
+  - Landlord Software
+  - Tenant Screening
+  - Lease Management
+  - Rent Collection
+  - Maintenance Requests
   - Real Estate
 apis:
   - aid: avail:avail-api
