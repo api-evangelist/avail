@@ -38,7 +38,7 @@ tags:
   - Lease Management
   - Rent Collection
   - Maintenance Requests
-  - Real-Estate
+  - Real Estate
 tags_raw:
   - Property Management
   - Rental Management
@@ -48,12 +48,12 @@ tags_raw:
   - Rent Collection
   - Maintenance Requests
   - Real Estate
+  - Real-Estate
 apis:
   - aid: avail:avail-api
     name: Avail API
     description: Avail platform API providing programmatic access to rental property management capabilities including listings, applications, leases, payments, and maintenance requests. Avail does not publish an official public developer API; third-party integrations access the platform through adaptive session-based authentication.
     humanURL: https://www.avail.com/
-    baseURL: https://www.avail.com/
     tags:
       - Property Listings
       - Tenant Applications
