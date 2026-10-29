@@ -1,4 +1,4 @@
-# Avail (avail)
+# Avail
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,103 @@
 
 Avail is a landlord-focused rental management platform offering tools for property listings, tenant applications, screening reports, lease agreements, rent payments, and maintenance requests. Designed for DIY independent landlords, Avail enables listing syndication across 19+ rental sites, state-specific digital lease signing, online rent collection, and maintenance request tracking through an all-in-one platform.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/avail/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/avail/refs/heads/main/apis.yml)
+**Areas:** Property Management · Rental Management · Landlord Software · Tenant Screening · Lease Management · Rent Collection · Maintenance Requests · Real Estate
 
-## Scope
+## Avail on APIs.io
 
-- **Type:** Index
+Everything profiled for Avail is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/avail/](https://apis.io/providers/avail/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Property Management
-- Rental Management
-- Landlord Software
-- Tenant Screening
-- Lease Management
-- Rent Collection
-- Maintenance Requests
-- Real Estate
+- [Avail API](https://apis.io/apis/avail/avail-api/) — Avail platform API providing programmatic access to rental property management capabilities including listings, applications, leases, payments, and…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Avail API
+Authentication, trust centre, and vulnerability disclosure.
 
-Avail platform API providing programmatic access to rental property management capabilities including listings, applications, leases, payments, and maintenance requests. Avail does not publish an official public developer API; third-party integrations access the platform through adaptive session-based authentication.
+- [Avail Domain Security](https://apis.io/security/avail/avail-domain-security/)
 
-- **Human URL:** [https://www.avail.com/](https://www.avail.com/)
-- **Base URL:** `https://www.avail.com/`
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Property Listings
-- Tenant Applications
-- Lease Management
-- Rent Payments
-- Maintenance Requests
+- [Avail Plans Pricing](https://apis.io/plans/avail/avail-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://www.avail.com/education)
-- [Support](https://support.avail.com/)
+Published request limits.
 
-## Common Properties
+- [Avail Rate Limits](https://apis.io/rate-limits/avail/avail-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Avail Finops](https://apis.io/finops/avail/avail-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.avail.com/)
 - [Documentation](https://www.avail.com/education)
-- [Blog](https://www.avail.com/blog)
 - [Pricing](https://www.avail.com/pricing)
 - [Support](https://support.avail.com/)
-- [LinkedIn](https://www.linkedin.com/company/helloavail)
-- [X (Twitter)](https://twitter.com/helloavail)
-- [Plans](plans/avail-plans-pricing.yml)
-- [Rate Limits](rate-limits/avail-rate-limits.yml)
-- [Fin Ops](finops/avail-finops.yml)
+- [Blog](https://www.avail.com/blog)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 11.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/avail/](https://apis.io/providers/avail/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Avail: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/avail/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
